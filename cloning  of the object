@@ -1,0 +1,36 @@
+//clone of the object
+//clone below client object to the another object
+// let client={
+//     name:'Alex',
+//     age:25,
+//     getfulldetail(){
+//         console.log(`his name is ${this.name}`)
+//     }
+// }
+
+// // let another={} //use the above object name client to the another object
+// let another=client;
+// console.log(another,another.getfulldetail())
+
+//this above method used to clone when the other object is empty with is key and values
+
+let client={
+    name:'Alex',
+    age:25,
+    getfulldetail(){
+        console.log(`his name is ${this.name}`)
+    }
+}
+
+// let another=Object.assign({  //assign is a another method to clone object
+//     age:25
+// },client)
+// console.log(another)
+
+//spread operator use the copied value of objects in another objects 
+// (...)
+
+let another={
+    ...client
+}
+console.log(another)

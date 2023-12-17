@@ -1,0 +1,11 @@
+//constructor property
+
+// let name=new String("vishnu") ->sting
+// let age=new Number(20) ->number literals
+// let isgood=new Boolean(true) ->booleanliterals
+
+let name=new String("vishnu")
+let age=new Number(20)
+let isgood=new Boolean(true)
+   
+console.log(name,age,isgood)

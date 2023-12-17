@@ -1,0 +1,22 @@
+//Enumerating properties of object
+
+const user={
+    name:"vardhan",
+    getFullname(){
+        console.log(`my name is ${this.name}`)
+    }
+}
+
+for(let key in user){
+    console.log(key,user[key])
+}
+
+for(let key of Object.keys(user)) //keys are methods use to display the values of object in an array
+console.log(key)
+
+for(let entry of Object.entries(user))
+console.log(entry)
+
+//object constructor
+// let obj={}
+// new obj()

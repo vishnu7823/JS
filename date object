@@ -1,0 +1,13 @@
+//date object
+
+// refer this link (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+
+const date=Date().toString();
+
+const now=new Date()
+
+const anotherdate=new Date('aug 7 2003')
+console.log(date);
+console.log(now.getFullYear());
+console.log(anotherdate.getFullYear());
+

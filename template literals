@@ -1,0 +1,11 @@
+//template literals
+ const greeting='welcome to pvr\n "cinemas"'
+ console.log(greeting)
+
+ const msg=`welcome to pvr  
+ "cinemas"`  //template literals-use to fix the format as code want
+console.log(msg)
+
+const name="allian";
+const message=`thankyou for watching the video  ${name} ` 
+console.log(message);

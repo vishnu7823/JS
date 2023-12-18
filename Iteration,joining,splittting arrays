@@ -1,0 +1,38 @@
+// 1)iterating array
+
+const dailyroutine=["wakeup","eat","sleep"]
+
+for(let routine of dailyroutine){
+    console.log(routine);
+}
+
+for(let routine in dailyroutine){
+    console.log(dailyroutine[routine]);
+}
+
+//for each
+dailyroutine.forEach(function(routine,index){
+    console.log(index,routine)
+})
+
+//arrowfunction
+dailyroutine.forEach((routine,index) => {
+    console.log(index,routine)
+})
+
+// 2) joining and splitting array
+
+const need=["food","shelter","cloth"]
+
+let needs=need.join("  ")
+console.log(needs);
+
+//split
+let title="my name is billa!".toUpperCase()
+let titleslug=title.split(" ")
+
+let finalslug=titleslug .join('-')
+
+console.log(finalslug)
+console.log(titleslug);
+

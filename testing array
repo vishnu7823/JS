@@ -1,0 +1,22 @@
+//primitive testing in array
+
+
+
+//every()
+const queue_by_age =[10,32,36];
+
+let isallowed=queue_by_age.every(function(value,index,array){
+   return value >=18 
+
+})
+console.log("is allowed",isallowed)
+
+
+//some()
+
+const queue_by_token=[10,45,67];
+
+let iscorrect=queue_by_token.some(function(value,index,array){
+    return value>=18
+})
+console.log(iscorrect);

@@ -1,0 +1,6 @@
+//sorting
+
+const students=[,40.32,10,13,20]
+students.sort();//ascending order
+students.reverse()
+console.log(students)
